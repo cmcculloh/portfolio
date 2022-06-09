@@ -2,7 +2,7 @@
 	import Header from './_components/Header.svelte';
 	import Footer from './_components/Footer.svelte';
 	import Form from './_components/Form.svelte';
-	import ContextToggle from './_components/ContextToggle.svelte';
+	// import ContextToggle from './_components/ContextToggle.svelte';
 
 	const links = [
 		{ url: 'https://github.com/cmcculloh', text: 'Github (personal)', styleClass: 'neutral' },
@@ -93,12 +93,6 @@
 <Footer />
 
 <style>
-	.link {
-		padding: 20px;
-		font-size: 0.8rem;
-		margin-top: 10px;
-		padding-left: 60px;
-	}
 	.basic-grid {
 		display: grid;
 		gap: 1rem;

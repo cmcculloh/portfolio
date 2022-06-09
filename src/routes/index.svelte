@@ -1,6 +1,5 @@
 <script>
 	import Header from './_components/Header.svelte';
-	import SubFooter from './_components/SubFooter.svelte';
 	import Footer from './_components/Footer.svelte';
 	import Section from './_components/Section.svelte';
 </script>

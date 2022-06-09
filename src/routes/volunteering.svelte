@@ -2,7 +2,7 @@
 	import Header from './_components/Header.svelte';
 	import Footer from './_components/Footer.svelte';
 	import Form from './_components/Form.svelte';
-	import ContextToggle from './_components/ContextToggle.svelte';
+	// import ContextToggle from './_components/ContextToggle.svelte';
 </script>
 
 <Header forcedClip={{ file: 'lego.mp4', offset: 600 }} />

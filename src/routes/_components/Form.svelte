@@ -101,18 +101,4 @@
 		margin-bottom: 4px;
 		width: 100%;
 	}
-
-	#form ul {
-		list-style-type: none;
-		margin: 0;
-		padding-left: 10px;
-	}
-
-	#form > div > ul > li {
-		margin-top: 16px;
-	}
-
-	#form > div > ul > li:first-of-type {
-		margin-top: 0;
-	}
 </style>
