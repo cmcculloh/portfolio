@@ -3,6 +3,11 @@
 	import Footer from './_components/Footer.svelte';
 	import Form from './_components/Form.svelte';
 	import ContextToggle from './_components/ContextToggle.svelte';
+
+	const links = [
+		{ url: 'https://github.com/cmcculloh', text: 'Github (personal)', styleClass: 'neutral' },
+		{ url: 'https://github.com/cormacmccarthy', text: 'Github (work)' }
+	];
 </script>
 
 <Header />
@@ -55,7 +60,7 @@
 		</div>
 
 		<div>
-			<Form>
+			<Form {links}>
 				<span slot="title">Career</span>
 				<span slot="list">
 					<ul>

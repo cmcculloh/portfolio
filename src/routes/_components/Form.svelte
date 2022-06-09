@@ -1,6 +1,7 @@
 <script>
 	let y;
 	export let fold = 710;
+	export let links = [];
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -11,9 +12,9 @@
 		<slot name="list" />
 	</div>
 	<div class="controls">
-		<a class="link button neutral" href="https://github.com/cmcculloh">Github (personal)</a>
-
-		<a class="link button" href="https://github.com/cormacmccarthy">Github (work)</a>
+		{#each links as link}
+			<a class="link button {link.styleClass}" href={link.url}>{link.text}</a>
+		{/each}
 	</div>
 </div>
 
