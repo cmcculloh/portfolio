@@ -45,6 +45,8 @@
 		position: fixed;
 		object-fit: cover;
 		z-index: -1;
+
+		background-color: var(--blue-1);
 	}
 	h1 {
 		font-family: Helvetica;
