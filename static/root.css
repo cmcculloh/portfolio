@@ -1,0 +1,18 @@
+:root {
+	--blue-1: #032e61;
+	--blue-2: #215ca0;
+	--blue-3: #8cd3f8;
+	--blue-4: #c2e8ff;
+	--blue-5: #e3f7ff;
+	--blue-6: #0070d2;
+	--grey-1: #706e6b;
+	--grey-2: #353535;
+	--grey-3: #f3f2f2;
+	--neutral-1: #9a8f87;
+	--neutral-2: #c1b9b4;
+	--neutral-3: #ded6cf;
+	--neutral-4: #f5f2f2;
+	font-size: 20px;
+	--text-primary: #222222;
+	--icon-fill: #ffffff;
+}

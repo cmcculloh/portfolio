@@ -1,0 +1,65 @@
+@import url(root.css);
+
+body {
+	font-family: Helvetica, Arial, 'Open Sans', sans-serif;
+	color: var(--text-primary);
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.circle {
+	background-color: var(--blue-1);
+	height: 400vh;
+	width: 400vh;
+	border-radius: 50%;
+	display: block;
+	top: -365vh;
+	left: -171vh;
+}
+
+main {
+	height: 100%;
+	padding-bottom: 100px;
+	padding-top: 40px;
+	background-color: white;
+	background: radial-gradient(
+		circle at left 1270px bottom 2890px,
+		white,
+		white 2680px,
+		var(--blue-5) 0px
+	);
+}
+
+main > h2:first-of-type {
+	margin: 0 15% 40px;
+}
+
+main > h4 {
+	padding-left: 20%;
+}
+
+.button {
+	display: inline-block;
+	margin: 0;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	white-space: normal;
+
+	background: var(--blue-6);
+	border: 1px solid var(--blue-6);
+	border-radius: 4px;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	height: 20px;
+	letter-spacing: 0.6px;
+	line-height: 18px;
+	padding: 19px 24px;
+	transition: all 0.1s;
+}
+
+.button:hover {
+	background: var(--blue-1);
+}
