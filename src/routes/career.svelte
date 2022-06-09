@@ -27,15 +27,30 @@
 			<p>
 				Christopher has worked on a large number projects over the years and holds <strong
 					>five patents</strong
-				>. He is user number 58 on StackOverflow, has commits on the jshint, and backbone.marionette
-				repositories (among others), and wrote & tech edited several books on web development.
+				>. He is user number 58 on StackOverflow, has commits on the jquery-ui, jshint, and
+				backbone.marionette repositories (among others), and wrote & tech edited several books on
+				web development.
 			</p>
 			<div class="basic-grid">
-				<img alt="banner" src="exacttarget.png" />
-				<img alt="banner" src="finishline.png" />
-				<img alt="banner" src="jqueryui.png" />
-				<img alt="banner" src="stackoverflow.png" />
-				<img alt="banner" src="amazon.png" />
+				<!-- https://web.archive.org/web/20130601233817/http://www.exacttarget.com/exacttarget-partners -->
+				<a
+					href="https://web.archive.org/web/20130610091006/http://pages.exacttarget.com/JoinHubExchange"
+					><img alt="banner" src="exacttarget.png" /></a
+				>
+				<a href="https://web.archive.org/web/20120606070704/http://www.finishline.com/"
+					><img alt="banner" src="finishline.png" /></a
+				>
+				<a
+					href="https://github.com/cmcculloh?achievement=arctic-code-vault-contributor&tab=achievements"
+					><img alt="banner" src="jqueryui.png" /></a
+				>
+				<a href="https://stackoverflow.com/users/58/cmcculloh?tab=profile"
+					><img alt="banner" src="stackoverflow.png" /></a
+				>
+				<a
+					href="https://www.amazon.com/HTML-XHTML-All-Reference-Dummies/dp/0470186275/ref=sr_1_1?crid=24KSKFLLV3O60&keywords=chris+mcculloch+for+dummies&qid=1654793555&sprefix=chris+mcculloh+for+du%2Caps%2C816&sr=8-1"
+					><img alt="banner" src="amazon.png" /></a
+				>
 			</div>
 		</div>
 
@@ -73,6 +88,12 @@
 <Footer />
 
 <style>
+	.link {
+		padding: 20px;
+		font-size: 0.8rem;
+		margin-top: 10px;
+		padding-left: 60px;
+	}
 	.basic-grid {
 		display: grid;
 		gap: 1rem;
