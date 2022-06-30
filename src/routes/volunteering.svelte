@@ -11,20 +11,23 @@
 
 <main>
 	<h2>Volunteering</h2>
-	<p>The most important thing on earth is kids. Everything else is just details.</p>
+	<p>
+		Christopher is grateful to Salesforce for their generous Volunteer Time Off policy that has
+		allowed him to do much more volunteering than he otherwise ever would have been able to.
+	</p>
 
 	<div class="two-column">
 		<div>
 			<img alt="Hagia Sophia Classical Accademy" src="singing.jpeg" width="100%" />
 			<p>
-				Christopher has a strong belief that the primary purpose of society should be in support of
-				providing a healthy world in which to raise children, who can in turn raise children. This
-				requires seeking the proper balance between attending to our own needs and self sacrifice to
-				focus on the needs of others. Whether working directly with youth, working with adults to
-				support their journey to get their lives in order, seeking to improve yourself to become the
-				best version of you that you can be, or tending and cultivating the world we all inhabit
-				together, all of these things are vital to helping ensure a safe healthy environment for the
-				next generation to mature in. Life is hard, but we can all help.
+				Christopher has a strong belief that one of the primary purpose of society should be in
+				support of providing a healthy world in which to raise children, who can in turn raise
+				children. This requires seeking the proper balance between attending to our own needs and
+				self sacrifice to focus on the needs of others. Whether working directly with youth, working
+				with adults to support their journey to get their lives in order, seeking to improve
+				yourself to become the best version of you that you can be, or tending and cultivating the
+				world we all inhabit together, all of these things are vital to helping ensure a safe
+				healthy environment for the next generation to mature in. Life is hard, but we can all help.
 			</p>
 			<div class="basic-grid">
 				<img alt="Scout Meeting" src="camp.jpg" />
