@@ -17,6 +17,14 @@
 		</p>
 	</Section>
 
+	<Section title="Code" src="code.png" cta="read it" href="https://cmcculloh.com/code">
+		<p slot="copy">
+			One of Christopher's favorite courses in college was TCM 220, which was a technical writing
+			course. Christopher has maintained a technical blog off and on over the years, although most
+			of it is now lost. You can see the latest incarnation of his development blog here.
+		</p>
+	</Section>
+
 	<Section title="Volunteering" src="horse.jpeg" href="/volunteering">
 		<p slot="copy">
 			Christopher loves working with kids. He volunteers with several youth oriented organizations.
