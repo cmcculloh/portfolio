@@ -30,11 +30,21 @@
 			<img alt="salesforce.com homepage" src="salesforce.png" width="100%" />
 
 			<p>
-				Christopher has worked on a large number projects over the years and holds <strong
-					>five patents</strong
+				Christopher has worked on a large number projects over the years, has <a
+					href="https://patents.justia.com/inventor/christopher-daniel-mcculloh"
+					><strong>four patents pending</strong></a
+				>, and
+				<a
+					href="https://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220210149638%22.PGNR.&OS=DN/20210149638&RS=DN/20210149638"
+					><strong>one granted</strong></a
 				>. He is user number 58 on StackOverflow, has commits on the jquery-ui, jshint, and
 				backbone.marionette repositories (among others), and wrote & tech edited several books on
 				web development.
+			</p>
+			<p>
+				You can see his career history on <a href="https://www.linkedin.com/in/cmcculloh/"
+					>LinkedIn</a
+				>
 			</p>
 			<div class="basic-grid">
 				<!-- https://web.archive.org/web/20130601233817/http://www.exacttarget.com/exacttarget-partners -->
@@ -61,27 +71,28 @@
 
 		<div>
 			<Form {links}>
-				<span slot="title">Career</span>
 				<span slot="list">
 					<ul>
 						<li>
-							<strong>Platform Dev Team</strong><br />Christopher built the Hub Exchange site that
-							allowed customer to aquire API keys and integrate with Exact Target.
+							<strong>UX R&D Team</strong> <em>(2021-current)</em><br />Christopher worked on AI &
+							ML design generation.
 						</li>
 						<li>
-							<strong>Marketing Cloud UX Team</strong><br />Christopher helped to build Fuel UX; a
-							Bootstrap (3 & 4) driven framework that enabled Salesforce Marketing Cloud developers
-							and customers to create a user interface with the look & feel of existing Salesforce
-							ExactTarget Marketing Cloud applications.
-						</li>
-						<li>
-							<strong>Cross Cloud UXE Team</strong><br />Christopher created many product demos
-							shown on mainstages at Dreamforces over the years. Christopher created a
+							<strong>CC UXE Team</strong> <em>(2016-2021)</em><br />Christopher created many
+							product demos shown on mainstages at Dreamforces over the years. Christopher created a
 							five-times-patented product demo framework that allowed full highly stable product
 							demos to be created in days (instead of months).
 						</li>
 						<li>
-							<strong>UX R&D Team</strong><br />Christopher worked on AI & ML design generation.
+							<strong>MC UX Team</strong> <em>(2013-2016)</em><br />Christopher helped to build Fuel
+							UX; a Bootstrap (3 & 4) driven framework that enabled Salesforce Marketing Cloud
+							developers and customers to create a user interface with the look & feel of existing
+							Salesforce ExactTarget Marketing Cloud applications.
+						</li>
+						<li>
+							<strong>Platform Dev Team</strong> <em>(2012-2013)</em><br />Christopher built the Hub
+							Exchange site that allowed customer to aquire API keys and integrate with Exact
+							Target.
 						</li>
 					</ul></span
 				>
