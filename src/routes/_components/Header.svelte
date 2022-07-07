@@ -5,17 +5,19 @@
 	let y;
 
 	const clips = [
-		{ file: 'rain-in-osaka-clipped.mp4', offset: 200 },
-		{ file: 'alley.mp4', offset: 400, blur: 2 },
-		{ file: 'raining-nagoya.mp4', offset: 600 },
-		{ file: 'tokyo-night.mp4', offset: 574, blur: 5 }
+		// { file: 'rain-in-osaka-clipped.mp4', offset: 200 },
+		// { file: 'alley.mp4', offset: 400, blur: 2 },
+		// { file: 'raining-nagoya.mp4', offset: 600 },
+		// { file: 'tokyo-night.mp4', offset: 574, blur: 5 }
+		{ file: 'coding3.mp4', offset: 600 },
+		// { file: 'coding2.mp4', offset: 400 }
 	];
 	const randomClip =
 		forcedClip === '' ? clips[Math.floor(Math.random() * clips.length)] : forcedClip;
 
 	// TODO: try animating transform translateY instead
 	$: top = y * -2 + -randomClip.offset;
-	$: blur = y / 25 + (randomClip.blur || 0);
+	// $: blur = y / 25 + (randomClip.blur || 0);
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -24,7 +26,9 @@
 	<video autoplay muted loop style="top: {top}px;">
 		<source src={randomClip.file} type="video/mp4" />
 	</video>
-	<h1 style="backdrop-filter: blur({blur}px);">{@html title}</h1>
+	<!-- blur is causing extremely long paint times... -->
+	<!-- <h1 style="backdrop-filter: blur({blur}px);">{@html title}</h1> -->
+	<h1>{@html title}</h1>
 </header>
 
 <style>
